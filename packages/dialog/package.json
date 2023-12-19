@@ -1,0 +1,16 @@
+{
+  "name": "@wt-ui/dialog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wt-ui/content": "workspace:^",
+    "@wt-ui/utils": "workspace:^"
+  }
+}

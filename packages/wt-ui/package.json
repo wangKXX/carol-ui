@@ -1,0 +1,22 @@
+{
+  "name": "@wt-ui/wt-ui",
+  "version": "1.0.1",
+  "description": "组件库",
+  "main": "index.ts",
+  "scripts": {
+    "build": "rimraf ../../lib && vue-tsc --noEmit && vite build"
+  },
+  "keywords": [],
+  "author": "wangk-ap",
+  "license": "ISC",
+  "dependencies": {
+    "@wt-ui/button": "workspace:^",
+    "@wt-ui/content": "workspace:^",
+    "@wt-ui/dialog": "workspace:^",
+    "@wt-ui/table": "workspace:^"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "vite-plugin-dts": "^2.3.0"
+  }
+}
