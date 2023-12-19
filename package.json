@@ -29,7 +29,7 @@
     "docs:preview": "pnpm run -C docs serve",
     "gen:component": "pnpm run -C cli gen",
     "start:verdaccio": "pnpm verdaccio",
-    "pub:local": "pnpm publish",
+    "pub": "pnpm publish",
     "lint": "eslint \"{cli,packages,docs,example}/**/*.{js,ts,vue,jsx,tsx}\" --fix"
   },
   "keywords": [],
