@@ -1,5 +1,5 @@
 {
-  "name": "@wt-ui/wt-ui",
+  "name": "@carol-ui/carol-ui",
   "version": "1.0.1",
   "description": "组件库",
   "main": "index.ts",
@@ -10,10 +10,10 @@
   "author": "wangk-ap",
   "license": "ISC",
   "dependencies": {
-    "@wt-ui/button": "workspace:^",
-    "@wt-ui/content": "workspace:^",
-    "@wt-ui/dialog": "workspace:^",
-    "@wt-ui/table": "workspace:^"
+    "@carol-ui/button": "workspace:^",
+    "@carol-ui/content": "workspace:^",
+    "@carol-ui/dialog": "workspace:^",
+    "@carol-ui/table": "workspace:^"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",

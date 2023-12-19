@@ -4,7 +4,7 @@
 
 <script lang="ts" setup name="wt-button">
 import { wtButtonProps } from './types'
-import { dispatchEvent } from '@wt-ui/utils'
+import { dispatchEvent } from '@carol-ui/utils'
 
 const props = defineProps(wtButtonProps)
 

@@ -19,8 +19,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, './index.ts'),
-      name: 'wt-ui',
-      fileName: format => `wt-ui.${format}.js`
+      name: 'carol-ui',
+      fileName: format => `carol-ui.${format}.js`
     },
     outDir: path.resolve(__dirname, '../../lib'),
     rollupOptions: {

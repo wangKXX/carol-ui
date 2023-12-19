@@ -6,7 +6,7 @@ WtContent.name = 'wt-content'
 
 WtContent.install = (app: App): void => {
   // 注册组件
-  app.component(WtContent.name, WtContent)
+  app.component(WtContent.name as string, WtContent)
 }
 
 export default WtContent

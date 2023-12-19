@@ -17,9 +17,9 @@
 
 <script lang="ts" setup>
 import { ref, toRefs } from 'vue'
-import WContent from '@wt-ui/content'
+import WContent from '@carol-ui/content'
 import type { IComponent, IEvent } from './types'
-import { dispatchEvent } from '@wt-ui/utils'
+import { dispatchEvent } from '@carol-ui/utils'
 interface IWDialog {
   confirmTxt?: string
   cancelTxt?: string

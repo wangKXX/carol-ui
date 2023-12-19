@@ -1,5 +1,5 @@
 {
-  "name": "@wt-ui/content",
+  "name": "@carol-ui/content",
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@wt-ui/utils": "workspace:^",
+    "@carol-ui/utils": "workspace:^",
     "uuid": "^9.0.1"
   },
   "devDependencies": {

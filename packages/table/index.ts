@@ -6,7 +6,7 @@ WtTable.name = 'wt-table'
 
 WtTable.install = (app: App): void => {
   // 注册组件
-  app.component(WtTable.name, WtTable)
+  app.component(WtTable.name as string, WtTable)
 }
 
 export default WtTable

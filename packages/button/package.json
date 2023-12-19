@@ -1,5 +1,5 @@
 {
-  "name": "@wt-ui/button",
+  "name": "@carol-ui/button",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@wt-ui/utils": "workspace:^"
+    "@carol-ui/utils": "workspace:^"
   }
 }

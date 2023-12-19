@@ -53,7 +53,7 @@ import {
   findComponentIndex,
   getRepalceIndex,
   globalRemoveComponentById
-} from '@wt-ui/utils'
+} from '@carol-ui/utils'
 const props = withDefaults(defineProps<{
   mateData: IComponent;
   globalPageData: IComponent;
