@@ -1,13 +1,13 @@
 {
   "name": "carol-ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "低码Vue3物料",
   "author": "kai.wang",
   "private": false,
   "type": "module",
-  "main": "./lib/demo-ui-lib.umd.js",
-  "module": "./lib/demo-ui-lib.es.js",
-  "types": "./lib/demo-ui-lib/index.d.ts",
+  "main": "./lib/wt-ui.umd.js",
+  "module": "./lib/wt-ui.es.js",
+  "types": "./lib/wu-ui/index.d.ts",
   "files": [
     "./lib",
     "package.json",
@@ -15,8 +15,8 @@
   ],
   "exports": {
     ".": {
-      "require": "./lib/demo-ui-lib.umd.js",
-      "import": "./lib/demo-ui-lib.es.js"
+      "require": "./lib/wt-ui.umd.js",
+      "import": "./lib/wt-ui.es.js"
     }
   },
   "scripts": {
